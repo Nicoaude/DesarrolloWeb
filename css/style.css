@@ -46,12 +46,9 @@ body {
     margin-right: auto;
 }
 
-.navbar-toggler-collapsed {
-    background-color: red;
-}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M 2,5 L 28,5" /%3E%3Cpath stroke="white" stroke-width="2" d="M 2,15 L 28,15" /%3E%3Cpath stroke="white" stroke-width="2" d="M 2,25 L 28,25" /%3E%3C/svg%3E');
 
-.navbar-toggler {
-    color: #f09433;
 }
 
 .whatsapp-container {
@@ -904,6 +901,11 @@ footer span {
         flex: 1;
         height: 300px;
     }
+
+    /* ============================
+   LIMPIEZA DETALLE HTML
+   ============================ */
+       /* ---- SECTION DETALLADO ---- */
 }
 
 @media screen and (max-width:768px) {
