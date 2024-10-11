@@ -922,8 +922,37 @@ footer span {
         text-align: center;
     }
 
+    .detallado-container .detallado-inicio h2 {
+        font-size: 30px;
+    }
+
+    .detallado-container .detallado-exp h2 {
+        font-size: 30px;
+    }
+
+    .servicios-detail-container h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
     .servicios-detail-container .box-container {
         flex-direction: column;
+    }
+
+    .exp-detail-container .exp-detail .timeline .timeline-item h5 {
+        font-size: 20px;
+    }
+
+    .exp-detail-container .exp-detail .timeline .timeline-item p {
+        font-size: 14px;
+    }
+
+    .exp-detail-container .exp-detail .timeline .timeline-item-image img {
+        max-width: 80%;
+    }
+
+    .resenas-container .resenas h2 {
+        font-size: 32px;
     }
 
     .resenas-container .box-container {
@@ -935,10 +964,19 @@ footer span {
         justify-content: center;
     }
 
+    .otros-servicios-container .otros-servicios h2 {
+        font-size: 32px;
+    }
+
     .otros-servicios-container .box-container {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 20px;
+    }
+
+    footer img {
+        width: 40%;
     }
 }
 
@@ -1021,8 +1059,71 @@ footer span {
         margin: 5px;
     }
 
+    /* ============================
+   LIMPIEZA DETALLE HTML
+   ============================ */
+    /* ---- SECTION DETALLADO ---- */
+    .detallado-container .detallado-inicio h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .detallado-container .detallado-inicio p {
+        font-size: 16px;
+    }
+
+    .detallado-container .detallado-exp h2 {
+        font-size: 30px;
+    }
+
+    .detallado-container .detallado-exp p {
+        font-size: 16px;
+    }
+
+    .servicios-detail-container h2 {
+        font-size: 30px;
+    }
+
+    .servicios-detail-container .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicios-detail-container .box-container .box {
+        width: 365px;
+    }
+
+    .servicios-detail-container .box-container .box ul li {
+        font-size: 30px;
+    }
+
+    .exp-detail-container {
+        display: none;
+    }
+
+    .resenas-container .resenas h2 {
+        font-size: 30px;
+    }
+
+    .resenas-container .box-container {
+        flex-direction: column;
+    }
+
+    .otros-servicios-container .otros-servicios h2 {
+        font-size: 30px;
+    }
+
+    .otros-servicios-container .otros-servicios .box-container {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .otros-servicios-container .otros-servicios .box-container .box img {
+        max-width: 280px;
+    }
+
     footer img {
-        width: 50%;
+        width: 60%;
     }
 }
 
