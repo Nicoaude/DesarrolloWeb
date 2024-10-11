@@ -943,15 +943,33 @@ footer span {
 }
 
 @media (width < 630px) {
+    .whatsapp-container {
+        display: none;
+    }
     .servicios-container .servicios-grid {
         display: flex;
         flex-direction: column;
+    }
+
+    .servicios-grid .grid-item img {
+        width: 400px;
+    }
+
+    .marcas-container .marcas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marcas-container .marcas img {
+        margin-top: 10px;
     }
 
     .marcas-container .box-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .trabajoblog-grid {
