@@ -424,7 +424,7 @@ footer span {
    LIMPIEZA-DETALLE HTML
    ============================ */
 
-   /* ---- SECTION DETALLADO ---- */
+/* ---- SECTION DETALLADO ---- */
 .detallado-container .image-container {
     display: flex;
     width: 100%;
@@ -527,7 +527,7 @@ footer span {
     letter-spacing: .4px;
 }
 
-   /* ---- SECTION SERVICIOS ---- */
+/* ---- SECTION SERVICIOS ---- */
 .servicios-detail-container {
     display: flex;
     flex-direction: column;
@@ -640,7 +640,7 @@ footer span {
     transition: all .3s;
 }
 
-   /* ---- SECTION EXPLICACION DETAIL ---- */
+/* ---- SECTION EXPLICACION DETAIL ---- */
 .exp-detail-container .exp-detail {
     width: 80%;
     margin: 0 auto;
@@ -719,7 +719,7 @@ footer span {
     font-size: 16px;
 }
 
-   /* ---- SECTION RESEÑAS ---- */
+/* ---- SECTION RESEÑAS ---- */
 .resenas-container {
     display: flex;
     flex-direction: column;
@@ -771,7 +771,7 @@ footer span {
     color: #FEC42D;
 }
 
-   /* ---- SECTION OTROS SERVICIOS ---- */
+/* ---- SECTION OTROS SERVICIOS ---- */
 .otros-servicios-container .otros-servicios {
     display: flex;
     flex-direction: column;
@@ -861,7 +861,7 @@ footer span {
    MEDIA QUERIES
    ============================ */
 
-@media screen and (max-width:1024px) {
+@media (width <= 1024px) {
     .navbar img {
         width: 15rem;
     }
@@ -905,10 +905,30 @@ footer span {
     /* ============================
    LIMPIEZA DETALLE HTML
    ============================ */
-       /* ---- SECTION DETALLADO ---- */
-}
+    /* ---- SECTION DETALLADO ---- */
+    .detallado-container .detallado-inicio {
+        text-align: center;
+    }
 
-@media screen and (max-width:768px) {
+    .servicios-detail-container .box-container {
+        flex-direction: column;
+    }
+
+    .resenas-container .box-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .otros-servicios-container .otros-servicios {
+        justify-content: center;
+    }
+    .otros-servicios-container .box-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media (width <= 768px) {
     .navbar img {
         width: 15rem;
     }
@@ -950,6 +970,28 @@ footer span {
     .container-datos .datos iframe {
         flex: 1;
         height: 300px;
+    }
+
+    .detallado-container .detallado-inicio h2 {
+        font-size: 30px;
+    }
+
+    .detallado-container .detallado-inicio p {
+        font-size: 14px;
+    }
+
+    .detallado-container .detallado-exp h2 {
+        font-size: 30px;
+    }
+
+    .detallado-container .etallado-exp p {
+        font-size: 14px;
+    }
+
+    .otros-servicios-container .box-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
 
