@@ -1025,3 +1025,15 @@ footer span {
         width: 50%;
     }
 }
+
+@media (320px <= width <= 375px) {
+    .servicios-container h2 {
+        text-align: center;
+    }
+    .servicios-grid .grid-item img {
+        width: 320px;
+    }
+    .marcas-container h2 {
+        text-align: center;
+    }
+}
