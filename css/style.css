@@ -858,10 +858,10 @@ footer span {
 
 
 /* ============================
-   MEDIA QUERIES
+   MEDIA QUERIES  
    ============================ */
 
-@media (width <= 1024px) {
+@media (630px <=width <=1024px) {
     .navbar img {
         width: 15rem;
     }
@@ -902,6 +902,18 @@ footer span {
         height: 300px;
     }
 
+    .container-datos .datos {
+        display: flex;
+        background-color: #E84855;
+        border-radius: 30px 0 0 30px;
+        width: 78%;
+    }
+
+    .container-datos .datos iframe {
+        flex: 1;
+        height: 300px;
+    }
+
     /* ============================
    LIMPIEZA DETALLE HTML
    ============================ */
@@ -922,140 +934,30 @@ footer span {
     .otros-servicios-container .otros-servicios {
         justify-content: center;
     }
+
     .otros-servicios-container .box-container {
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
     }
 }
-@media (width <= 768px) {
-    .navbar img {
-        width: 15rem;
+
+@media (width < 630px) {
+    .servicios-container .servicios-grid {
+        display: flex;
+        flex-direction: column;
     }
 
-    .whatsapp-container {
-        display: none;
-    }
-
-    .servicios-grid {
+    .marcas-container .box-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .servicios-grid .grid-item {
-        color: #FFFFFF;
-        font-weight: bold;
-    }
-
-    .servicios-grid .grid-item img {
-        display: flex;
-        width: 505px;
     }
 
     .trabajoblog-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 350px);
-        justify-content: center;
-        gap: 35px;
-    }
-
-    .container-datos .datos {
-        display: flex;
-        background-color: #E84855;
-        border-radius: 30px 0 0 30px;
-        width: 80%;
-    }
-
-    .container-datos .datos iframe {
-        flex: 1;
-        height: 300px;
-    }
-
-    .detallado-container .detallado-inicio h2 {
-        font-size: 30px;
-    }
-
-    .detallado-container .detallado-inicio p {
-        font-size: 14px;
-    }
-
-    .detallado-container .detallado-exp h2 {
-        font-size: 30px;
-    }
-
-    .detallado-container .etallado-exp p {
-        font-size: 14px;
-    }
-
-    .otros-servicios-container .box-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-}
-
-@media screen and (max-width:425px) {
-    .navbar img {
-        width: 12rem;
-    }
-
-    .navbar-toggler {
-        margin-right: 50px;
-    }
-
-    .image-container {
-        display: none;
-    }
-
-    .separador {
-        display: flex;
-        justify-content: center;
-    }
-
-    .servicios-grid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .servicios-container .servicios-grid .grid-item img {
-        display: flex;
-        width: 425px;
-    }
-
-    .marcas {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px;
-    }
-
-    .marcas img {
-        width: 150px;
-    }
-
-    .box-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #B0996D;
-        margin-top: 50px;
-    }
-
-    .trabajos-container .ultimostrabajos {
-        display: flex;
-        margin-top: 20px;
-    }
-
-    .trabajos-container .ultimostrabajos h2 {
-        text-align: center;
-        font-size: 12px;
-    }
-
-    .trabajos-container .trabajoblog-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 300px);
-        justify-content: center;
-        gap: 35px;
     }
 
     .datos-container .container-datos {
@@ -1099,12 +1001,5 @@ footer span {
 
     footer img {
         width: 50%;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .servicios-container .servicios-grid .grid-item img {
-        display: flex;
-        width: 375px;
     }
 }
