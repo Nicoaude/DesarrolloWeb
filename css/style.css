@@ -972,6 +972,10 @@ footer span {
         flex-wrap: wrap;
     }
 
+    .ultimostrabajos h2 {
+        text-align: center;
+    }
+
     .trabajoblog-grid {
         display: flex;
         flex-direction: column;
