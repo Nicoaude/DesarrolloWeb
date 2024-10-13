@@ -1137,4 +1137,49 @@ footer span {
     .marcas-container h2 {
         text-align: center;
     }
+
+    .detallado-container .detallado-inicio h2 {
+        font-size: 1.8em;
+        line-height: 1em;
+        letter-spacing: 1px;
+    }
+
+    .detallado-container .detallado-inicio p {
+        font-size: 0.8em;
+        line-height: 1.4em;
+    }
+
+    .detallado-container .detallado-exp h2 {
+        font-size: 25px;
+    }
+
+    .detallado-container .detallado-exp p {
+        font-size: 16px;
+    }
+
+    .servicios-detail-container .box-container .box {
+        width: 50%;
+    }
+
+    .servicios-detail-container .box-container .box h3 {
+        color: #E89800;
+    font-family: "Poppins", Sans-serif;
+    font-size: 31px;
+    font-weight: normal;
+    }
+
+    .servicios-detail-container .box-container .box span {
+        font-size: 50px;
+    }
+
+    .servicios-detail-container .box-container .box ul li {
+        font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    margin-bottom: 3px;
+    font-size: 15px;
+    }
+
+    .servicios-detail-container .box-container .box {
+        margin-bottom: 0;
+    }
 }
