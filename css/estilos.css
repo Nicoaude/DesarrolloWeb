@@ -305,11 +305,371 @@
   .datos-container .container-datos iframe {
     flex: 1; }
 
+.detallado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .detallado-container img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(40%); }
+  .detallado-container .detallado-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .detallado-container .detallado-inicio h1 {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 56px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 20px; }
+    .detallado-container .detallado-inicio p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px; }
+    .detallado-container .detallado-inicio button {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      fill: #FFFFFF;
+      color: #FFFFFF;
+      background-color: #E89800;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #E89800;
+      border-radius: 5px 5px 5px 5px;
+      padding: 15px 30px;
+      margin-bottom: 10px; }
+      .detallado-container .detallado-inicio button:hover {
+        color: #E89800;
+        background-color: #FFFFFF;
+        transition: all .3s; }
+    .detallado-container .detallado-inicio span {
+      width: 25%;
+      border-style: solid;
+      border-width: 2px 0px 0px 0px;
+      border-color: #F9A40F;
+      margin: 20px; }
+  .detallado-container .aboutdetail-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; }
+    .detallado-container .aboutdetail-container .abouttext {
+      margin: 20px;
+      padding: 20px;
+      max-width: 700px; }
+      .detallado-container .aboutdetail-container .abouttext h2 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 48px;
+        margin: 10px 0; }
+      .detallado-container .aboutdetail-container .abouttext p {
+        font-size: 16px;
+        margin-bottom: 1.5em;
+        color: #4d4d4d;
+        font-family: "Poppins", Sans-serif;
+        text-align: left; }
+      .detallado-container .aboutdetail-container .abouttext a button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px 30px;
+        margin-bottom: 10px; }
+        .detallado-container .aboutdetail-container .abouttext a button:hover {
+          color: #E89800;
+          background-color: #FFFFFF;
+          transition: all .3s; }
+    .detallado-container .aboutdetail-container .img-container img {
+      -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75); }
+
+.servicios-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .servicios-detail-container h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0; }
+  .servicios-detail-container .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .servicios-detail-container .box-container .box {
+      margin: 40px;
+      padding: 20px 15px;
+      border-radius: 2px;
+      text-align: center;
+      background-color: #FFFFFF;
+      -webkit-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75); }
+      .servicios-detail-container .box-container .box img {
+        -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+        width: 380px; }
+      .servicios-detail-container .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease; }
+      .servicios-detail-container .box-container .box p {
+        color: #313333;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1px; }
+      .servicios-detail-container .box-container .box span {
+        font-size: 25px;
+        color: #E89800;
+        font-weight: 700;
+        letter-spacing: -.4px;
+        line-height: initial; }
+      .servicios-detail-container .box-container .box .resaltado {
+        display: flex;
+        justify-content: center;
+        font-family: "Poppins", Sans-serif;
+        font-style: italic;
+        color: #4d4d4d;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: .4px; }
+      .servicios-detail-container .box-container .box ul {
+        list-style-type: none; }
+      .servicios-detail-container .box-container .box li {
+        font-family: "Poppins", Sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 3px;
+        color: #000000;
+        transition: all .4s ease; }
+        .servicios-detail-container .box-container .box li::before {
+          content: '\2192';
+          margin-right: 8px;
+          color: #E89800; }
+      .servicios-detail-container .box-container .box button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #000;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 25px;
+        padding: 15px 30px 15px 30px;
+        transition: all .4s ease; }
+        .servicios-detail-container .box-container .box button:hover {
+          color: #fff;
+          background-color: #000;
+          border-color: #000;
+          transition: all .3s; }
+
+.exp-detail-container .exp-detail {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0; }
+  .exp-detail-container .exp-detail .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; }
+    .exp-detail-container .exp-detail .timeline::before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #dee2e6;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%); }
+  .exp-detail-container .exp-detail .timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 2rem 0; }
+    .exp-detail-container .exp-detail .timeline-item:nth-child(even) {
+      flex-direction: row-reverse; }
+    .exp-detail-container .exp-detail .timeline-item .timeline-item-content,
+    .exp-detail-container .exp-detail .timeline-item .timeline-item-image {
+      width: 45%; }
+      .exp-detail-container .exp-detail .timeline-item .timeline-item-content img,
+      .exp-detail-container .exp-detail .timeline-item .timeline-item-image img {
+        max-width: 65%;
+        border-radius: 5px; }
+    .exp-detail-container .exp-detail .timeline-item span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: #E89800;
+      border-radius: 50%;
+      top: 1rem;
+      left: calc(50% - 15px);
+      z-index: 1;
+      color: white;
+      font-weight: bold;
+      font-size: 16px; }
+    .exp-detail-container .exp-detail .timeline-item h5 {
+      font-size: 34px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #313333;
+      margin-top: 0;
+      margin-bottom: 20px; }
+    .exp-detail-container .exp-detail .timeline-item p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px; }
+
+.resenas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; }
+  .resenas-container .resenas h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    color: #E89800; }
+  .resenas-container .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; }
+    .resenas-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 310px;
+      width: 272px;
+      background-color: #FFFFFF;
+      margin: 20px;
+      padding: 20px 15px;
+      border-radius: 20px;
+      text-align: center; }
+      .resenas-container .box-container .box .img {
+        width: 15%; }
+      .resenas-container .box-container .box .star {
+        color: #FEC42D; }
+
+.otros-servicios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .otros-servicios-container .otros-servicios h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    text-align: center; }
+  .otros-servicios-container .box-container {
+    display: flex;
+    margin: 20px; }
+    .otros-servicios-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 25px 0px 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0px 0px 10px 0px #F9A40F;
+      height: 100%; }
+      .otros-servicios-container .box-container .box img {
+        width: 400px;
+        transition: transform 0.3s ease; }
+        .otros-servicios-container .box-container .box img:hover {
+          transform: scale(0.9); }
+      .otros-servicios-container .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease; }
+      .otros-servicios-container .box-container .box span {
+        margin: 20px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        color: #E89800; }
+      .otros-servicios-container .box-container .box button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px 30px;
+        margin-bottom: 10px; }
+        .otros-servicios-container .box-container .box button:hover {
+          color: #E89800;
+          background-color: #FFFFFF;
+          transition: all .3s; }
+
 .ceramico-about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px; }
+  justify-content: center; }
   .ceramico-about-container .about-container {
     display: flex;
     flex-direction: column;
@@ -358,6 +718,7 @@
       padding: 20px;
       max-width: 700px; }
       .ceramico-about-container .aboutceramic-container .abouttext h2 {
+        color: #313333;
         font-family: "Poppins", Sans-serif;
         font-size: 36px;
         font-weight: 700;
@@ -365,10 +726,12 @@
         line-height: 48px;
         margin: 10px 0; }
       .ceramico-about-container .aboutceramic-container .abouttext p {
+        color: #313333;
+        font-family: "Montserrat", Sans-serif;
         font-size: 16px;
-        margin-bottom: 1.5em;
-        color: #4d4d4d;
-        font-family: "Poppins", Sans-serif;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1px;
         text-align: left; }
       .ceramico-about-container .aboutceramic-container .abouttext a button {
         font-family: "Montserrat", Sans-serif;
@@ -398,6 +761,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #e7e0e0a1; }
   .ceramico-beneficios-container .beneficios-container h2 {
     color: #313333;
@@ -434,6 +798,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       border-radius: 10px;
       margin: 30px;
       padding: 20px;
@@ -445,9 +810,13 @@
         border-radius: 10px 10px 0px 0px;
         margin-bottom: 20px; }
       .ceramico-beneficios-container .beneficios-container .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease;
         font-family: "Montserrat", Sans-serif;
-        font-size: 24px;
-        font-weight: 800;
         text-transform: uppercase;
         text-align: center; }
       .ceramico-beneficios-container .beneficios-container .box-container .box .divisor .separador::before,
@@ -461,15 +830,15 @@
         font-weight: 600;
         text-transform: uppercase; }
       .ceramico-beneficios-container .beneficios-container .box-container .box p {
-        text-align: center;
+        color: #313333;
         font-family: "Montserrat", Sans-serif;
-        font-size: 0.9em;
+        font-size: 16px;
         font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1px;
+        font-size: 0.9em;
         text-transform: none;
-        font-style: normal;
-        text-decoration: none;
-        line-height: 1.6em;
-        letter-spacing: 0px; }
+        font-style: normal; }
 
 .ceramico-paquetes-container .paquetes-container {
   display: flex;

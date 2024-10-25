@@ -5,14 +5,16 @@ $btn-color: #E89800;
 
 // MIXIN PROYECTO
 
-@mixin flex-column-center { // FLEX EN COLUMNA CENTRADO
+@mixin flex-column-center {
+    // FLEX EN COLUMNA CENTRADO
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-@mixin flex-row-center { // FLEX EN FILA CENTRADO
+@mixin flex-row-center {
+    // FLEX EN FILA CENTRADO
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,7 +43,8 @@ $btn-color: #E89800;
     margin: 10px 0;
 }
 
-@mixin h3-styles { // ESTILO BÁSICO H3
+@mixin h3-styles {
+    // ESTILO BÁSICO H3
     font-family: "Poppins", Sans-serif;
     margin: 20px;
     font-size: 18px;
@@ -50,16 +53,18 @@ $btn-color: #E89800;
     transition: all .4s ease;
 }
 
-@mixin p-styles { // ESTILO BÁSICO PÁRRAFO
+@mixin p-styles {
+    // ESTILO BÁSICO PÁRRAFO
     color: #313333;
-            font-family: "Montserrat", Sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 21px;
-            letter-spacing: 1px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
 }
 
-@mixin separador { // SEPARADOR FINO
+@mixin separador {
+    // SEPARADOR FINO
     width: 25%;
     border-style: solid;
     border-width: 2px 0px 0px 0px;
@@ -115,7 +120,8 @@ $btn-color: #E89800;
     }
 }
 
-@mixin service-box { // BOX SERVICIOS GRANDE
+@mixin service-box {
+    // BOX SERVICIOS GRANDE
     margin: 40px;
     padding: 20px 15px;
     border-radius: 2px;
@@ -125,7 +131,8 @@ $btn-color: #E89800;
     -moz-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75);
 }
 
-@mixin oservice-box { // BOX SERVICIOS EN CONJUNTO
+@mixin oservice-box {
+    // BOX SERVICIOS EN CONJUNTO
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +143,8 @@ $btn-color: #E89800;
     height: 100%;
 }
 
-@mixin testimonials-box { // BOX TESTIMONIOS
+@mixin testimonials-box {
+    // BOX TESTIMONIOS
     display: flex;
     flex-direction: column;
     align-items: center;
