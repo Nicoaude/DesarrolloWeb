@@ -95,7 +95,8 @@
       font-size: 56px;
       font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      margin-top: 20px; }
     .ceramico-about-container .about-container p {
       color: #313333;
       font-family: "Montserrat", Sans-serif;
@@ -287,7 +288,7 @@
   justify-content: center; }
 
 .ceramico-paquetes-container .box {
-  margin: 100px;
+  margin: 40px;
   padding: 20px 15px;
   border-radius: 2px;
   text-align: center;
@@ -483,6 +484,437 @@
           color: #E89800;
           background-color: #FFFFFF;
           transition: all .3s; }
+
+.pulidos-about-container .about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; }
+  .pulidos-about-container .about-container h1 {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px; }
+  .pulidos-about-container .about-container p {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px; }
+  .pulidos-about-container .about-container button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #E89800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E89800;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px;
+    margin-bottom: 10px; }
+    .pulidos-about-container .about-container button:hover {
+      color: #E89800;
+      background-color: #FFFFFF;
+      transition: all .3s; }
+  .pulidos-about-container .about-container .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.pulidos-about-container .aboutpulidos-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+  .pulidos-about-container .aboutpulidos-container .image-container img {
+    width: 500px;
+    -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75); }
+  .pulidos-about-container .aboutpulidos-container .about {
+    margin: 30px;
+    max-width: 1100px; }
+    .pulidos-about-container .aboutpulidos-container .about h2 {
+      color: #313333;
+      font-family: "Poppins", Sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 48px;
+      margin: 10px 0;
+      text-align: center; }
+    .pulidos-about-container .aboutpulidos-container .about p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px; }
+  .pulidos-about-container .aboutpulidos-container .defectos-container {
+    display: flex;
+    justify-content: flex-start; }
+    .pulidos-about-container .aboutpulidos-container .defectos-container .box {
+      margin: 20px; }
+      .pulidos-about-container .aboutpulidos-container .defectos-container .box h2 {
+        color: #313333;
+        font-family: "Poppins", Sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 48px;
+        margin: 10px 0;
+        font-size: 20px;
+        text-align: center; }
+      .pulidos-about-container .aboutpulidos-container .defectos-container .box img {
+        border-radius: 50% 50% 50% 50%;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
+
+.pulidos-paquetes-container .paquetes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .pulidos-paquetes-container .paquetes-container h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    padding: 20px; }
+  .pulidos-paquetes-container .paquetes-container p {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px; }
+  .pulidos-paquetes-container .paquetes-container .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.pulidos-paquetes-container .box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .pulidos-paquetes-container .box-container .box {
+    margin: 40px;
+    padding: 20px 15px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75); }
+    .pulidos-paquetes-container .box-container .box h3 {
+      font-family: "Poppins", Sans-serif;
+      margin: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #313333;
+      transition: all .4s ease; }
+    .pulidos-paquetes-container .box-container .box p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px; }
+    .pulidos-paquetes-container .box-container .box span {
+      font-size: 25px;
+      color: #E89800;
+      font-weight: 700;
+      letter-spacing: -.4px;
+      line-height: initial; }
+    .pulidos-paquetes-container .box-container .box ul {
+      margin-top: 20px;
+      list-style-type: none; }
+      .pulidos-paquetes-container .box-container .box ul li {
+        font-family: "Poppins", Sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #000000;
+        transition: all .4s ease; }
+      .pulidos-paquetes-container .box-container .box ul li::before {
+        content: '\2192';
+        margin-right: 8px;
+        color: #E89800; }
+    .pulidos-paquetes-container .box-container .box a button {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #000;
+      background-color: #E89800;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #E89800;
+      border-radius: 25px;
+      padding: 15px 30px 15px 30px;
+      transition: all .4s ease; }
+      .pulidos-paquetes-container .box-container .box a button:hover {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+        transition: all .3s; }
+
+.pulidos-testimonios-container {
+  background-color: #000000; }
+  .pulidos-testimonios-container .testimonios h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    color: #E89800;
+    text-align: center;
+    padding: 20px; }
+  .pulidos-testimonios-container .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; }
+    .pulidos-testimonios-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 310px;
+      width: 272px;
+      background-color: #FFFFFF;
+      margin: 20px;
+      padding: 20px 15px;
+      border-radius: 20px;
+      text-align: center; }
+      .pulidos-testimonios-container .box-container .box .img {
+        width: 15%; }
+      .pulidos-testimonios-container .box-container .box .star {
+        color: #FEC42D; }
+
+.pulidos-faq-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .pulidos-faq-container .faq {
+    margin: 20px; }
+    .pulidos-faq-container .faq h2 {
+      color: #313333;
+      font-family: "Poppins", Sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 48px;
+      margin: 10px 0; }
+    .pulidos-faq-container .faq p {
+      margin-bottom: 1.5em;
+      color: #4d4d4d;
+      font-family: "Poppins", Sans-serif;
+      font-size: 16px;
+      text-align: left;
+      max-width: 450px; }
+  .pulidos-faq-container .faq-container .accordion .accordion-button {
+    background-color: #D9D9D9;
+    padding: 20px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    width: 873px; }
+  .pulidos-faq-container .faq-container .accordion .accordion-button:not(.collapsed) {
+    color: black; }
+  .pulidos-faq-container .faq-container .accordion .accordion-body {
+    margin-bottom: 1.5em;
+    color: #4d4d4d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    text-align: left;
+    max-width: 870px; }
+
+.pulidos-oservicios-container {
+  margin-top: 30px; }
+  .pulidos-oservicios-container .oservicios h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    text-align: center; }
+  .pulidos-oservicios-container .oservicios .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .pulidos-oservicios-container .oservicios .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 25px 0px 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0px 0px 10px 0px #F9A40F;
+      height: 100%; }
+      .pulidos-oservicios-container .oservicios .box-container .box img {
+        width: 400px;
+        transition: transform 0.3s ease; }
+        .pulidos-oservicios-container .oservicios .box-container .box img:hover {
+          transform: scale(0.9); }
+      .pulidos-oservicios-container .oservicios .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease; }
+      .pulidos-oservicios-container .oservicios .box-container .box span {
+        margin-bottom: 20px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        color: #E89800; }
+      .pulidos-oservicios-container .oservicios .box-container .box button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px 30px;
+        margin-bottom: 10px; }
+        .pulidos-oservicios-container .oservicios .box-container .box button:hover {
+          color: #E89800;
+          background-color: #FFFFFF;
+          transition: all .3s; }
+
+.blog-container .blog-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .blog-container .blog-inicio h1 {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px; }
+  .blog-container .blog-inicio p {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px; }
+  .blog-container .blog-inicio .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.blog-categorias-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .blog-categorias-container h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    text-align: center; }
+  .blog-categorias-container .box-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .blog-categorias-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 400px; }
+      .blog-categorias-container .box-container .box a img {
+        border-radius: 5px;
+        width: 350px; }
+      .blog-categorias-container .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease; }
+      .blog-categorias-container .box-container .box p {
+        color: #313333;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1px;
+        width: 200px;
+        text-align: center; }
+  .blog-categorias-container .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.blog-ultimospost-container h2 {
+  color: #313333;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 48px;
+  margin: 10px 0;
+  text-align: center; }
+
+.blog-ultimospost-container .ultimospost-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.blog-ultimospost-container h3 {
+  font-family: "Poppins", Sans-serif;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #313333;
+  transition: all .4s ease;
+  text-align: center; }
+
+.blog-ultimospost-container img {
+  width: 500px; }
 
 footer {
   display: flex;

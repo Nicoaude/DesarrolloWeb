@@ -1,0 +1,67 @@
+@import "../base/sass";
+
+.blog-container {
+    .blog-inicio {
+        @include flex-column-center;
+        h1 {
+            @include h1-styles;
+        }
+        p {
+            @include p-styles;
+        }
+        .separador {
+            @include separador;
+        }
+    }
+}
+
+.blog-categorias-container {
+    @include flex-column-center;
+    h2 {
+        @include h2-styles;
+        text-align: center;
+    }
+    .box-container {
+        margin: 20px;
+        @include flex-row-center;
+        .box {
+            @include flex-column-center;
+            width: 400px;
+            a {
+                img {
+                    border-radius: 5px;
+                    width: 350px;
+                }
+            }
+            
+            h3 {
+                @include h3-styles;
+            }
+            p {
+                @include p-styles;
+                width: 200px;
+                text-align: center;
+            }
+        }
+    }
+    .separador {
+        @include separador;
+    }
+}
+
+.blog-ultimospost-container {
+    h2 {
+        @include h2-styles;
+        text-align: center;
+    }
+    .ultimospost-container {
+        @include flex-column-center;
+    }
+    h3 {
+        @include h3-styles;
+        text-align: center;
+    }
+    img {
+        width: 500px;
+    }
+}

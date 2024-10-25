@@ -1,0 +1,253 @@
+@import "../base/sass";
+
+.pulidos-about-container {
+    .about-container {
+        @include flex-column-center;
+        margin-top: 20px;
+
+        h1 {
+            @include h1-styles;
+        }
+
+        p {
+            @include p-styles;
+        }
+
+        button {
+            @include button-box;
+        }
+        .separador {
+            @include separador;
+        }
+    }
+
+    .aboutpulidos-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+
+        .image-container {
+            img {
+                width: 500px;
+                -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+            }
+        }
+
+        .about {
+            margin: 30px;
+            max-width: 1100px;
+
+            h2 {
+                @include h2-styles;
+                text-align: center;
+            }
+
+            p {
+                @include p-styles;
+            }
+        }
+
+        .defectos-container {
+            display: flex;
+            justify-content: flex-start;
+
+            .box {
+                margin: 20px;
+
+                h2 {
+                    @include h2-styles;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                img {
+                    border-radius: 50% 50% 50% 50%;
+                    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}
+
+.pulidos-paquetes-container {
+    .paquetes-container {
+        @include flex-column-center;
+        h2 {
+            @include h2-styles;
+            padding: 20px;
+        }
+
+        p {
+            @include p-styles;
+        }
+        .separador {
+            @include separador;
+        }
+    }
+
+    .box-container {
+        @include flex-row-center;
+
+        .box {
+            @include service-box;
+
+            h3 {
+                @include h3-styles;
+            }
+
+            p {
+                @include p-styles;
+            }
+
+            span {
+                font-size: 25px;
+                color: #E89800;
+                font-weight: 700;
+                letter-spacing: -.4px;
+                line-height: initial;
+            }
+
+            ul {
+                margin-top: 20px;
+                list-style-type: none;
+
+                li {
+                    font-family: "Poppins", Sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    color: #000000;
+                    transition: all .4s ease;
+                }
+
+                li::before {
+                    content: '\2192';
+                    margin-right: 8px;
+                    color: #E89800;
+                }
+            }
+
+            a {
+                button {
+                    @include button-rounded;
+                }
+            }
+        }
+    }
+}
+
+.pulidos-testimonios-container {
+    background-color: #000000;
+
+    .testimonios {
+        h2 {
+            @include h2-styles;
+            color: #E89800;
+            text-align: center;
+            padding: 20px
+        }
+    }
+
+    .box-container {
+        @include flex-row-center;
+        margin: 20px;
+
+        .box {
+            @include testimonials-box;
+        }
+    }
+}
+
+.pulidos-faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .faq {
+        margin: 20px;
+
+        h2 {
+            @include h2-styles;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            color: #4d4d4d;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            text-align: left;
+            max-width: 450px;
+        }
+    }
+
+    .faq-container {
+        .accordion {
+            .accordion-button {
+                background-color: #D9D9D9;
+                padding: 20px;
+                font-family: "Poppins", Sans-serif;
+                font-weight: 500;
+                line-height: 1;
+                width: 873px;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: black;
+            }
+
+            .accordion-body {
+                margin-bottom: 1.5em;
+                color: #4d4d4d;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                text-align: left;
+                max-width: 870px;
+            }
+        }
+    }
+}
+
+.pulidos-oservicios-container {
+    margin-top: 30px;
+
+    .oservicios {
+        h2 {
+            @include h2-styles;
+            text-align: center;
+        }
+
+        .box-container {
+            @include flex-row-center;
+
+            .box {
+                @include oservice-box;
+
+                img {
+                    width: 400px;
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: scale(0.9);
+                    }
+                }
+
+                h3 {
+                    @include h3-styles;
+                }
+
+                span {
+                    margin-bottom: 20px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 20px;
+                    color: #E89800;
+                }
+
+                button {
+                    @include button-box;
+                }
+            }
+        }
+    }
+}
