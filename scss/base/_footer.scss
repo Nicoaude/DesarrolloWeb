@@ -1,0 +1,50 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e1115;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 20%;
+}
+
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin: 20px;
+}
+
+footer .social-icons .fa-facebook {
+    background-color: #3b5998;
+    margin: 0px 5px;
+    padding: .5em;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 20%;
+}
+
+footer .social-icons .fa-youtube {
+    background-color: #cd201f;
+    margin: 0px 5px;
+    padding: .5em;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 20%;
+}
+
+footer .social-icons .fa-instagram {
+    background-color: #E1306C;
+    margin: 0px 5px;
+    padding: .5em;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 20%;
+}
+
+footer span {
+    color: #fff;
+    font-size: 13px;
+}

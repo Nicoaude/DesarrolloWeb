@@ -1,0 +1,529 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #000000; }
+
+.navbar img {
+  width: 15rem; }
+
+.navbar ul li a {
+  color: #F1C40F;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  transition: all 0.4s;
+  text-decoration: none; }
+
+.navbar ul li a:hover {
+  color: #F1C40F; }
+
+.navbar-nav .nav-link {
+  color: #FFFFFF;
+  margin-right: 30px; }
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center; }
+
+.navbar-brand {
+  margin-right: auto; }
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M 2,5 L 28,5" /%3E%3Cpath stroke="white" stroke-width="2" d="M 2,15 L 28,15" /%3E%3Cpath stroke="white" stroke-width="2" d="M 2,25 L 28,25" /%3E%3C/svg%3E'); }
+
+.whatsapp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.whatsapp-text {
+  color: #E89800;
+  margin-bottom: -15px; }
+
+.whatsapp-number {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0; }
+
+.whatsapp-icon {
+  color: #25D366;
+  margin: 0px 15px 20px 5px;
+  font-size: 40px; }
+
+.btn-presupuesto {
+  background-color: transparent;
+  border: 2px solid #313333;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin: 15px; }
+
+.btn-presupuesto:hover {
+  background-color: white;
+  color: black;
+  border-color: white; }
+
+.instagram-icon {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+  font-size: 24px;
+  margin: 0px 100px 0px 50px; }
+
+.ceramico-about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; }
+  .ceramico-about-container .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .ceramico-about-container .about-container h1 {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 56px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    .ceramico-about-container .about-container p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px; }
+    .ceramico-about-container .about-container a button {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      fill: #FFFFFF;
+      color: #FFFFFF;
+      background-color: #E89800;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #E89800;
+      border-radius: 5px 5px 5px 5px;
+      padding: 15px 30px;
+      margin-bottom: 10px; }
+      .ceramico-about-container .about-container a button:hover {
+        color: #E89800;
+        background-color: #FFFFFF;
+        transition: all .3s; }
+  .ceramico-about-container .aboutceramic-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; }
+    .ceramico-about-container .aboutceramic-container .abouttext {
+      margin: 20px;
+      padding: 20px;
+      max-width: 700px; }
+      .ceramico-about-container .aboutceramic-container .abouttext h2 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 48px;
+        margin: 10px 0; }
+      .ceramico-about-container .aboutceramic-container .abouttext p {
+        font-size: 16px;
+        margin-bottom: 1.5em;
+        color: #4d4d4d;
+        font-family: "Poppins", Sans-serif;
+        text-align: left; }
+      .ceramico-about-container .aboutceramic-container .abouttext a button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px 30px;
+        margin-bottom: 10px; }
+        .ceramico-about-container .aboutceramic-container .abouttext a button:hover {
+          color: #E89800;
+          background-color: #FFFFFF;
+          transition: all .3s; }
+    .ceramico-about-container .aboutceramic-container .img-container img {
+      -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75); }
+
+.ceramico-beneficios-container .beneficios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e0e0a1; }
+  .ceramico-beneficios-container .beneficios-container h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0; }
+  .ceramico-beneficios-container .beneficios-container a button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #E89800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E89800;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px;
+    margin-bottom: 10px; }
+    .ceramico-beneficios-container .beneficios-container a button:hover {
+      color: #E89800;
+      background-color: #FFFFFF;
+      transition: all .3s; }
+  .ceramico-beneficios-container .beneficios-container .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px; }
+    .ceramico-beneficios-container .beneficios-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+      margin: 30px;
+      padding: 20px;
+      max-width: 400px;
+      box-shadow: 0px 0px 5px 1px #555353; }
+      .ceramico-beneficios-container .beneficios-container .box-container .box img {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 20px; }
+      .ceramico-beneficios-container .beneficios-container .box-container .box h3 {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center; }
+      .ceramico-beneficios-container .beneficios-container .box-container .box .divisor .separador::before,
+      .ceramico-beneficios-container .beneficios-container .box-container .box .divisor .separador::after {
+        content: '\2500';
+        margin: 8px;
+        color: #E89800; }
+      .ceramico-beneficios-container .beneficios-container .box-container .box .divisor .info {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 0.8em;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .ceramico-beneficios-container .beneficios-container .box-container .box p {
+        text-align: center;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 0.9em;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.6em;
+        letter-spacing: 0px; }
+
+.ceramico-paquetes-container .paquetes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .ceramico-paquetes-container .paquetes-container h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0; }
+  .ceramico-paquetes-container .paquetes-container p {
+    margin-bottom: 1.5em;
+    color: #4d4d4d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px; }
+  .ceramico-paquetes-container .paquetes-container a button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #E89800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E89800;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px;
+    margin-bottom: 10px; }
+    .ceramico-paquetes-container .paquetes-container a button:hover {
+      color: #E89800;
+      background-color: #FFFFFF;
+      transition: all .3s; }
+
+.ceramico-paquetes-container .box-container {
+  display: flex;
+  justify-content: center; }
+
+.ceramico-paquetes-container .box {
+  margin: 100px;
+  padding: 20px 15px;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 7px -1px rgba(0, 0, 0, 0.75); }
+  .ceramico-paquetes-container .box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px; }
+  .ceramico-paquetes-container .box h3 {
+    color: #E89800;
+    font-family: "Poppins", Sans-serif;
+    font-size: 31px;
+    font-weight: normal;
+    transition: all .4s ease; }
+  .ceramico-paquetes-container .box p {
+    font-family: "Poppins", Sans-serif;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .4px; }
+  .ceramico-paquetes-container .box span {
+    font-size: 25px;
+    color: #E89800;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    line-height: initial; }
+  .ceramico-paquetes-container .box ul {
+    margin-top: 20px;
+    list-style-type: none; }
+    .ceramico-paquetes-container .box ul li {
+      font-family: "Poppins", Sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #000000;
+      transition: all .4s ease; }
+    .ceramico-paquetes-container .box ul li::before {
+      content: '\2192';
+      margin-right: 8px;
+      color: #E89800; }
+  .ceramico-paquetes-container .box button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    background-color: #E89800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E89800;
+    border-radius: 25px;
+    padding: 15px 30px 15px 30px;
+    transition: all .4s ease; }
+    .ceramico-paquetes-container .box button:hover {
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+      transition: all .3s; }
+
+.ceramico-testimonios-container {
+  background-color: #000000; }
+  .ceramico-testimonios-container .testimonios h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    color: #E89800;
+    text-align: center; }
+  .ceramico-testimonios-container .box-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; }
+    .ceramico-testimonios-container .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 310px;
+      width: 272px;
+      background-color: #FFFFFF;
+      margin: 20px;
+      padding: 20px 15px;
+      border-radius: 20px;
+      text-align: center; }
+      .ceramico-testimonios-container .box-container .box .img {
+        width: 15%; }
+      .ceramico-testimonios-container .box-container .box .star {
+        color: #FEC42D; }
+
+.ceramico-faq-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .ceramico-faq-container .faq {
+    margin: 20px; }
+    .ceramico-faq-container .faq h2 {
+      color: #313333;
+      font-family: "Poppins", Sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 48px;
+      margin: 10px 0; }
+    .ceramico-faq-container .faq p {
+      margin-bottom: 1.5em;
+      color: #4d4d4d;
+      font-family: "Poppins", Sans-serif;
+      font-size: 16px;
+      text-align: left;
+      max-width: 450px; }
+  .ceramico-faq-container .faq-container .accordion .accordion-button {
+    background-color: #D9D9D9;
+    padding: 20px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    width: 873px; }
+  .ceramico-faq-container .faq-container .accordion .accordion-button:not(.collapsed) {
+    color: black; }
+  .ceramico-faq-container .faq-container .accordion .accordion-body {
+    margin-bottom: 1.5em;
+    color: #4d4d4d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    text-align: left;
+    max-width: 870px; }
+
+.ceramico-oservicios-container {
+  margin-top: 30px; }
+  .ceramico-oservicios-container .oservicios h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    text-align: center; }
+  .ceramico-oservicios-container .oservicios .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .ceramico-oservicios-container .oservicios .box-container .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 25px 0px 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0px 0px 10px 0px #F9A40F;
+      height: 100%; }
+      .ceramico-oservicios-container .oservicios .box-container .box img {
+        width: 400px;
+        transition: transform 0.3s ease; }
+        .ceramico-oservicios-container .oservicios .box-container .box img:hover {
+          transform: scale(0.9); }
+      .ceramico-oservicios-container .oservicios .box-container .box h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease; }
+      .ceramico-oservicios-container .oservicios .box-container .box span {
+        margin-bottom: 20px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        color: #E89800; }
+      .ceramico-oservicios-container .oservicios .box-container .box button {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #E89800;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #E89800;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px 30px;
+        margin-bottom: 10px; }
+        .ceramico-oservicios-container .oservicios .box-container .box button:hover {
+          color: #E89800;
+          background-color: #FFFFFF;
+          transition: all .3s; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0e1115;
+  margin-top: 30px; }
+
+footer img {
+  width: 20%; }
+
+footer .social-icons {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin: 20px; }
+
+footer .social-icons .fa-facebook {
+  background-color: #3b5998;
+  margin: 0px 5px;
+  padding: .5em;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 20%; }
+
+footer .social-icons .fa-youtube {
+  background-color: #cd201f;
+  margin: 0px 5px;
+  padding: .5em;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 20%; }
+
+footer .social-icons .fa-instagram {
+  background-color: #E1306C;
+  margin: 0px 5px;
+  padding: .5em;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 20%; }
+
+footer span {
+  color: #fff;
+  font-size: 13px; }

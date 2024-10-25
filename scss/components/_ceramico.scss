@@ -1,0 +1,360 @@
+@import "../base/sass";
+
+
+.ceramico-about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    .about-container {
+        @include flex-column-center;
+
+        h1 {
+            @include h1-styles;
+        }
+
+        p {
+            color: #313333;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 1px;
+        }
+
+        a {
+            button {
+                @include button-box;
+            }
+        }
+    }
+
+
+    .aboutceramic-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .abouttext {
+            margin: 20px;
+            padding: 20px;
+            max-width: 700px;
+
+            h2 {
+                font-family: "Poppins", Sans-serif;
+                font-size: 36px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 48px;
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 1.5em;
+                color: #4d4d4d;
+                font-family: "Poppins", Sans-serif;
+                text-align: left;
+            }
+
+            a {
+                button {
+                    @include button-box;
+                }
+            }
+        }
+
+        .img-container {
+            img {
+                -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+            }
+        }
+    }
+}
+
+.ceramico-beneficios-container {
+    .beneficios-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e7e0e0a1;
+
+        h2 {
+            @include h2-styles;
+        }
+
+        a {
+            button {
+                @include button-box;
+            }
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 50px;
+
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 10px;
+                margin: 30px;
+                padding: 20px;
+                max-width: 400px;
+                box-shadow: 0px 0px 5px 1px rgb(85, 83, 83);
+
+                img {
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 10px 10px 0px 0px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: "Montserrat", Sans-serif;
+                    font-size: 24px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+                .divisor {
+
+                    .separador::before,
+                    .separador::after {
+                        content: '\2500';
+                        margin: 8px;
+                        color: #E89800;
+
+
+                    }
+
+                    .info {
+                        font-family: "Montserrat", Sans-serif;
+                        font-size: 0.8em;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                    }
+                }
+
+                p {
+                    text-align: center;
+                    font-family: "Montserrat", Sans-serif;
+                    font-size: 0.9em;
+                    font-weight: 400;
+                    text-transform: none;
+                    font-style: normal;
+                    text-decoration: none;
+                    line-height: 1.6em;
+                    letter-spacing: 0px;
+                }
+            }
+        }
+    }
+}
+
+.ceramico-paquetes-container {
+    .paquetes-container {
+        @include flex-column-center;
+
+        h2 {
+            @include h2-styles;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            color: #4d4d4d;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+        }
+
+        a {
+            button {
+                @include button-box;
+            }
+        }
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        @include service-box;
+
+        img {
+            width: 300px;
+                    height: 200px;
+                    border-radius: 10px 10px 0px 0px;
+                    margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #E89800;
+            font-family: "Poppins", Sans-serif;
+            font-size: 31px;
+            font-weight: normal;
+            transition: all .4s ease;
+        }
+
+        p {
+            font-family: "Poppins", Sans-serif;
+            color: #4d4d4d;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: .4px;
+        }
+
+        span {
+            font-size: 25px;
+            color: #E89800;
+            font-weight: 700;
+            letter-spacing: -.4px;
+            line-height: initial;
+        }
+
+        ul {
+            margin-top: 20px;
+            list-style-type: none;
+
+            li {
+                font-family: "Poppins", Sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                margin-bottom: 10px;
+                color: #000000;
+                transition: all .4s ease;
+            }
+
+            li::before {
+                content: '\2192';
+                margin-right: 8px;
+                color: #E89800;
+            }
+        }
+
+        button {
+            @include button-rounded;
+        }
+    }
+}
+
+.ceramico-testimonios-container {
+    background-color: #000000;
+
+    .testimonios {
+        h2 {
+            @include h2-styles;
+            color: #E89800;
+            text-align: center;
+        }
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+
+        .box {
+            @include testimonials-box;
+        }
+    }
+}
+
+.ceramico-faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .faq {
+        margin: 20px;
+
+        h2 {
+            @include h2-styles;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            color: #4d4d4d;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            text-align: left;
+            max-width: 450px;
+        }
+    }
+
+    .faq-container {
+        .accordion {
+            .accordion-button {
+                background-color: #D9D9D9;
+                padding: 20px;
+                font-family: "Poppins", Sans-serif;
+                font-weight: 500;
+                line-height: 1;
+                width: 873px;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: black;
+            }
+
+            .accordion-body {
+                margin-bottom: 1.5em;
+                color: #4d4d4d;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                text-align: left;
+                max-width: 870px;
+            }
+        }
+    }
+}
+
+.ceramico-oservicios-container {
+    margin-top: 30px;
+    .oservicios {
+        h2 {
+            @include h2-styles;
+            text-align: center;
+        }
+
+        .box-container {
+            @include flex-row-center;
+
+            .box {
+                @include oservice-box;
+
+                img {
+                    width: 400px;
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: scale(0.9);
+                    }
+                }
+
+                h3 {
+                    @include h3-styles;
+                }
+
+                span {
+                    margin-bottom: 20px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 20px;
+                    color: #E89800;
+                }
+
+                button {
+                    @include button-box;
+                }
+            }
+        }
+    }
+}
