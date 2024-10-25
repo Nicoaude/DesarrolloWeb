@@ -79,6 +79,232 @@
   font-size: 24px;
   margin: 0px 100px 0px 50px; }
 
+.servicios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .servicios-container img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(40%); }
+  .servicios-container h1 {
+    color: #313333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px; }
+  .servicios-container .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+  .servicios-container .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    place-items: center; }
+    .servicios-container .servicios-grid .grid-center {
+      grid-column: 2/ span 1; }
+    .servicios-container .servicios-grid .grid-item {
+      color: #FFFFFF;
+      font-weight: bold; }
+      .servicios-container .servicios-grid .grid-item:hover .servicios-solicitar {
+        display: flex;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #e89800;
+        font-size: .9em;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        margin-left: 28px; }
+      .servicios-container .servicios-grid .grid-item a img {
+        display: flex;
+        object-fit: cover; }
+      .servicios-container .servicios-grid .grid-item .servicios-overlay {
+        position: absolute; }
+        .servicios-container .servicios-grid .grid-item .servicios-overlay h2 {
+          margin: -100px 0px 0px 25px; }
+        .servicios-container .servicios-grid .grid-item .servicios-overlay p {
+          margin: 0px 0px 0px 25px;
+          color: #E89800; }
+      .servicios-container .servicios-grid .grid-item .servicios-solicitar {
+        display: none;
+        font-size: 18px;
+        margin-top: 10px; }
+
+.marcas-container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .marcas-container .title h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    text-align: center;
+    margin-top: 20px; }
+  .marcas-container .title .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.marcas-container .marcas {
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover; }
+  .marcas-container .marcas img {
+    width: 133.31px;
+    height: 79.53px; }
+
+.marcas-container .box-container {
+  display: flex;
+  justify-content: center;
+  background-color: #B0996D;
+  margin-top: 50px; }
+  .marcas-container .box-container .box {
+    height: 220px;
+    width: 280px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    text-align: center; }
+    .marcas-container .box-container .box i {
+      font-size: 48px; }
+    .marcas-container .box-container .box h3 {
+      font-family: "Poppins", Sans-serif;
+      margin: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #313333;
+      transition: all .4s ease;
+      color: #B0996D; }
+    .marcas-container .box-container .box p {
+      color: #313333;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 1px;
+      font-size: 12px;
+      text-align: center; }
+
+.trabajos-container .ultimostrabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; }
+  .trabajos-container .ultimostrabajos h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0; }
+
+.trabajos-container .trabajoblog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  gap: 35px; }
+  .trabajos-container .trabajoblog-grid .grid-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    .trabajos-container .trabajoblog-grid .grid-item img {
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      margin-bottom: 10px; }
+    .trabajos-container .trabajoblog-grid .grid-item h3 {
+      font-family: "Poppins", Sans-serif;
+      margin: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #313333;
+      transition: all .4s ease; }
+    .trabajos-container .trabajoblog-grid .grid-item a {
+      color: #E89800;
+      font-size: 12px;
+      font-family: "Poppins", Sans-serif;
+      font-weight: bold;
+      text-decoration: none; }
+    .trabajos-container .trabajoblog-grid .grid-item i {
+      font-size: 12px; }
+
+.datos-container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .datos-container .title h2 {
+    color: #313333;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin: 10px 0;
+    margin-top: 20px; }
+  .datos-container .title .separador {
+    width: 25%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #F9A40F;
+    margin: 20px; }
+
+.datos-container .container-datos {
+  display: flex;
+  justify-content: center; }
+  .datos-container .container-datos .datos {
+    display: flex;
+    background-color: #E84855;
+    border-radius: 30px 0 0 30px;
+    width: 50%; }
+    .datos-container .container-datos .datos .datos-info {
+      display: flex;
+      flex-direction: column;
+      margin: 30px; }
+      .datos-container .container-datos .datos .datos-info h3 {
+        font-family: "Poppins", Sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #313333;
+        transition: all .4s ease;
+        color: #ddd; }
+      .datos-container .container-datos .datos .datos-info p {
+        color: #313333;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #ddd; }
+        .datos-container .container-datos .datos .datos-info p i {
+          color: #313333; }
+  .datos-container .container-datos iframe {
+    flex: 1; }
+
 .ceramico-about-container {
   display: flex;
   flex-direction: column;
