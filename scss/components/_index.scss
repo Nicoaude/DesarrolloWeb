@@ -215,19 +215,23 @@
                 display: flex;
                 flex-direction: column;
                 margin: 30px;
+
                 h3 {
                     @include h3-styles;
                     color: #ddd;
                 }
+
                 p {
                     @include p-styles;
                     color: #ddd;
+
                     i {
                         color: #313333;
                     }
                 }
             }
         }
+
         iframe {
             flex: 1;
         }

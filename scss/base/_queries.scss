@@ -1,0 +1,931 @@
+@import "./components/index";
+@import "./components/detallado";
+@import "./components/pulidos";
+@import "./components/ceramico";
+@import "./components/blog";
+
+@media (min-width: 682px) and (max-width: 1024px) {
+
+    /* == NAVBAR == */
+    .navbar {
+        img {
+            width: 15rem;
+        }
+
+        .whatsapp-container {
+            display: none;
+        }
+    }
+
+    /* == INDEX HTML == */
+    .servicios-container {
+        h1 {
+            font-size: 30px;
+        }
+
+        .servicios-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .marcas-container {
+        .marcas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                height: 280px;
+
+                p {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    .trabajos-container {
+        .trabajoblog-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+
+    .datos-container {
+        .container-datos {
+            .datos {
+                display: flex;
+                background-color: #E84855;
+                border-radius: 30px 0 0 30px;
+                width: 78%;
+
+                iframe {
+                    flex: 1;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+    /* == DETALLE HTML == */
+    .detallado-container {
+        .detallado-inicio {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+        .aboutdetail-container {
+            .abouttext {
+                h2 {
+                    font-size: 26px;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+            }
+
+            .img-container {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .servicios-detail-container {
+        h2 {
+            font-size: 26px;
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .exp-detail-container {
+        .exp-detail {
+            .timeline {
+                .timeline-item {
+                    .timeline-item-content {
+                        h5 {
+                            font-size: 22px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .timeline-item-image {
+                        img {
+                            max-width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .resenas-container {
+        .resenas {
+            h2 {
+                font-size: 26px;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .otros-servicios-container {
+        .otros-servicios {
+            h2 {
+                font-size: 26px;
+            }
+
+            .box-container {
+                @include flex-column-center;
+
+                .box {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    /* == PULIDOS HTML == */
+    .pulidos-about-container {
+        .about-container {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .aboutpulidos-container {
+            .image-container {
+                display: none;
+            }
+        }
+
+        .about {
+            width: 670px;
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            .defectos-container {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .pulidos-paquetes-container {
+        .paquetes-container {
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .pulidos-testimonios-container {
+        .testimonios {
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .box-container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .pulidos-faq-container {
+        @include flex-column-center;
+
+        .faq {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .faq-container {
+            .accordion {
+                .accordion-button {
+                    width: 660px;
+                }
+            }
+        }
+    }
+
+    .pulidos-oservicios-container {
+        .oservicios {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .box {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    /* == CERAMICO HTML == */
+    .ceramico-about-container {
+        .about-container {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .aboutceramic-container {
+            .abouttext {
+                h2 {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+            .img-container {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .ceramico-beneficios-container {
+        .beneficios-container {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .ceramico-paquetes-container {
+        .paquetes-container {
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+                width: 680px;
+            }
+        }
+
+        .box-container {
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .box {
+                width: 500px;
+            }
+        }
+    }
+
+    .ceramico-testimonios-container {
+        .testimonios {
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .box-container {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .ceramico-faq-container {
+        @include flex-column-center;
+
+        .faq {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .faq-container {
+            .accordion {
+                .accordion-button {
+                    width: 660px;
+                }
+            }
+        }
+    }
+
+    .ceramico-oservicios-container {
+        .oservicios {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .box {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    /* == BLOG HTML == */
+    .blog-container {
+        .blog-inicio {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .blog-categorias-container {
+        h2 {
+            font-size: 22px;
+        }
+
+        .box-container {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .box {}
+        }
+    }
+
+    .blog-ultimospost-container {
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    /* == FOOTER == */
+    footer {
+        img {
+            width: 40%;
+        }
+    }
+}
+
+
+@media (max-width: 681px) {
+
+    /* == NAVBAR == */
+    .navbar {
+        img {
+            width: 15rem;
+        }
+
+        .whatsapp-container {
+            display: none;
+        }
+    }
+
+    /* == INDEX HTML == */
+
+    .servicios-container {
+        h1 {
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .servicios-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .marcas-container {
+        .title {
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        .marcas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                height: 280px;
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .trabajos-container {
+        .ultimostrabajos {
+            h2 {
+                font-size: 24px;
+                text-align: center
+            }
+        }
+
+        .trabajoblog-grid {
+            @include flex-column-center;
+        }
+    }
+
+    .datos-container {
+        .container-datos {
+            display: flex;
+
+            .datos {
+                display: flex;
+                flex-direction: column;
+                background-color: #E84855;
+                border-radius: 30px 30px 0px 0px;
+
+                .datos-info {
+                    h3 {
+                        font-size: 17px;
+                    }
+                }
+
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /* == DETALLE HTML == */
+    .detallado-container {
+        .detallado-inicio {
+            h1 {
+                font-size: 24px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .aboutdetail-container {
+            .abouttext {
+                h2 {
+                    font-size: 22px;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+
+            .img-container {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .servicios-detail-container {
+        h2 {
+            font-size: 22px;
+            text-align: center
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                img {
+                    width: 280px;
+                }
+            }
+        }
+    }
+
+    .exp-detail-container {
+        display: none;
+    }
+
+    .resenas-container {
+        .resenas {
+            h2 {
+                font-size: 22px;
+                text-align: center
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .otros-servicios-container {
+        .otros-servicios {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                @include flex-column-center;
+
+                .box {
+                    width: 316px;
+                    margin: 5px;
+
+                    img {
+                        -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        border-radius: 10px 10px 0px 0px;
+                        width: 310px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* == PULIDOS HTML == */
+    .pulidos-about-container {
+        .about-container {
+            h1 {
+                font-size: 26px;
+                text-align: center;
+            }
+        }
+
+        .aboutpulidos-container {
+            .image-container {
+                display: none;
+            }
+
+            .about {
+                width: 316px;
+
+                h2 {
+                    font-size: 22px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+                .defectos-container {
+                    @include flex-column-center;
+                }
+            }
+        }
+    }
+
+    .pulidos-paquetes-container {
+        .paquetes-container {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                width: 318px;
+
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .pulidos-testimonios-container {
+        .testimonios {
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .pulidos-faq-container {
+        @include flex-column-center;
+
+        .faq {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .faq-container {
+            .accordion {
+                .accordion-button {
+                    width: 316px;
+                }
+            }
+        }
+    }
+
+    .pulidos-oservicios-container {
+        .oservicios {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                @include flex-column-center;
+
+                .box {
+                    width: 318px;
+                    margin: 10px;
+
+                    img {
+                        -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        border-radius: 10px 10px 0px 0px;
+                        width: 310px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* == CERAMICO HTML == */
+    .ceramico-about-container {
+        .about-container {
+            h1 {
+                font-size: 26px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+
+        .aboutceramic-container {
+            .abouttext {
+                h2 {
+                    font-size: 22px;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+
+            .img-container {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .ceramico-beneficios-container {
+        .beneficios-container {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            .box-container {
+                @include flex-column-center;
+
+                .box {
+                    width: 316px;
+                }
+            }
+        }
+    }
+
+    .ceramico-paquetes-container {
+        .paquetes-container {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                width: 316px;
+            }
+        }
+    }
+
+    .ceramico-testimonios-container {
+        .testimonios {
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .box-container {
+            @include flex-column-center;
+        }
+    }
+
+    .ceramico-faq-container {
+        @include flex-column-center;
+
+        .faq {
+            h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .faq-container {
+            .accordion {
+                .accordion-button {
+                    width: 316px;
+                }
+            }
+        }
+    }
+
+    .ceramico-oservicios-container {
+        .oservicios {
+            h2 {
+                font-size: 22px;
+            }
+
+            .box-container {
+                @include flex-column-center;
+
+                .box {
+                    width: 318px;
+                    margin: 10px;
+
+                    img {
+                        -webkit-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.75);
+                        border-radius: 10px 10px 0px 0px;
+                        width: 310px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* == BLOG HTML == */
+    .blog-container {
+        .blog-inicio {
+            h1 {
+                font-size: 26px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+
+    .blog-categorias-container {
+        h2 {
+            font-size: 22px;
+        }
+
+        .box-container {
+            @include flex-column-center;
+
+            .box {
+                a {
+                    img {
+                        width: 310px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-ultimospost-container {
+        h2 {
+            font-size: 21px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        img {
+            width: 310px;
+        }
+    }
+
+    /* == FOOTER == */
+    footer {
+        img {
+            width: 60%;
+        }
+    }
+
+}

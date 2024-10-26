@@ -169,9 +169,9 @@
 
         img {
             width: 300px;
-                    height: 200px;
-                    border-radius: 10px 10px 0px 0px;
-                    margin-bottom: 20px;
+            height: 200px;
+            border-radius: 10px 10px 0px 0px;
+            margin-bottom: 20px;
         }
 
         h3 {
@@ -298,6 +298,7 @@
 
 .ceramico-oservicios-container {
     margin-top: 30px;
+
     .oservicios {
         h2 {
             @include h2-styles;
